@@ -3,11 +3,11 @@ import hiking from "@/assets/hiking.jpg";
 import lake from "@/assets/lake-dawn.jpg";
 
 const items = [
-  { time: "06:30", title: "Yoga all'alba", place: "Prato degli ulivi", img: hiking },
-  { time: "09:00", title: "Trekking nel bosco", place: "Sentiero dei lecci · 8 km", img: hiking },
-  { time: "11:30", title: "Canoa sul lago", place: "Lago di Vagli", img: lake },
-  { time: "16:00", title: "Vendemmia & degustazione", place: "Podere San Lorenzo", img: hiking },
-  { time: "21:30", title: "Osservazione delle stelle", place: "Belvedere · cielo Bortle 3", img: lake },
+  { time: "06:30", title: "Yoga sul pontile", place: "Spiaggia degli ulivi", img: hiking },
+  { time: "09:00", title: "Trekking al Monte Baldo", place: "Sentiero del Ventrar · 9 km", img: hiking },
+  { time: "11:30", title: "Vela e windsurf", place: "Alto Garda · vento Ora", img: lake },
+  { time: "16:00", title: "Degustazione in Valtenesi", place: "Cantina Lugana DOC", img: hiking },
+  { time: "21:30", title: "Osservazione delle stelle", place: "Belvedere Tremosine · Bortle 3", img: lake },
 ];
 
 export const Adventures = () => {
