@@ -8,9 +8,9 @@ export const Footer = () => {
               Sotto le <span className="font-italic-serif text-accent">Stelle</span>
             </h3>
             <p className="text-forest-foreground/70 max-w-sm leading-relaxed text-sm">
-              Località Poggio agli Ulivi 12<br />
-              53024 Montalcino (SI), Italia<br />
-              +39 0577 84 12 33
+              Via degli Ulivi 12<br />
+              25010 Limone sul Garda (BS), Italia<br />
+              +39 0365 95 41 22
             </p>
           </div>
           <div className="md:col-span-2">
@@ -36,7 +36,7 @@ export const Footer = () => {
         </div>
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-forest-foreground/50">
           <span>© 1962—2026 Sotto le Stelle · Camping &amp; Glamping</span>
-          <span className="font-italic-serif">Fatto a mano in Toscana</span>
+          <span className="font-italic-serif">Fatto a mano sul Garda</span>
         </div>
       </div>
     </footer>

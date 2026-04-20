@@ -4,9 +4,9 @@ import lake from "@/assets/lake-dawn.jpg";
 import hero from "@/assets/hero-camp.jpg";
 
 const stays = [
-  { name: "Piazzola Ulivo", type: "Tenda propria", price: "da €28", img: hero, desc: "Piazzole ombreggiate tra gli ulivi, con accesso elettrico e vista sulle colline." },
-  { name: "Safari Tent", type: "Glamping", price: "da €145", img: tent, desc: "Tende sahariane in tela cerata, letti in lino, lanterna in ottone, veranda privata." },
-  { name: "Casetta sul Lago", type: "Cabina in legno", price: "da €210", img: lake, desc: "Cabine in cedro affacciate sul lago, terrazza sull'acqua, stufa in ghisa." },
+  { name: "Piazzola Limone", type: "Tenda propria", price: "da €32", img: hero, desc: "Piazzole ombreggiate tra ulivi e limoni, accesso elettrico e affaccio diretto sul Garda." },
+  { name: "Safari Tent", type: "Glamping", price: "da €165", img: tent, desc: "Tende sahariane in tela cerata, letti in lino, lanterna in ottone, veranda con vista lago." },
+  { name: "Casetta sul Lago", type: "Cabina in legno", price: "da €240", img: lake, desc: "Cabine in cedro affacciate sull'acqua turchese, pontile privato, stufa in ghisa." },
 ];
 
 export const Stays = () => {
@@ -18,13 +18,13 @@ export const Stays = () => {
             <div>
               <p className="text-xs tracking-[0.3em] uppercase text-muted-foreground mb-4">02 — Soggiorni</p>
               <h2 className="font-serif text-5xl md:text-7xl leading-none">
-                Tre <span className="font-italic-serif">modi</span><br />di abitare il bosco.
+                Tre <span className="font-italic-serif">modi</span><br />di abitare la riva.
               </h2>
             </div>
           </Reveal>
           <Reveal delay={200}>
             <p className="hidden md:block text-muted-foreground max-w-xs text-sm leading-relaxed">
-              Ogni soggiorno è pensato per riconnetterti con il ritmo lento della terra toscana.
+              Ogni soggiorno è pensato per riconnetterti con il ritmo lento del lago.
             </p>
           </Reveal>
         </div>

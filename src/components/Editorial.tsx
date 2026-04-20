@@ -16,17 +16,17 @@ export const Editorial = () => {
           </Reveal>
           <Reveal delay={100}>
             <h2 className="font-serif text-4xl md:text-5xl leading-tight mb-8">
-              Ogni sera, una <span className="font-italic-serif text-primary">lunga tavolata</span> sotto il pergolato.
+              Ogni sera, una <span className="font-italic-serif text-primary">lunga tavolata</span> sulla terrazza affacciata sul lago.
             </h2>
           </Reveal>
           <Reveal delay={200}>
             <p className="text-muted-foreground leading-relaxed text-lg mb-8">
-              Pasta tirata a mano, verdure dell'orto, olio dei nostri ulivi e vino del podere accanto. Niente menù: solo ciò che la terra ha dato quel giorno.
+              Pesce di lago, pasta tirata a mano, limoni del Garda, olio dei nostri ulivi e vino della Valtenesi. Niente menù: solo ciò che il lago e la terra hanno dato quel giorno.
             </p>
           </Reveal>
           <Reveal delay={300}>
             <div className="space-y-4 border-t border-border pt-6">
-              {["Cena contadina · ogni sera dalle 20:00", "Mercato del podere · sabato mattina", "Lezioni di pasta · su prenotazione"].map((x) => (
+              {["Cena sul lago · ogni sera dalle 20:00", "Mercato del pescatore · sabato mattina", "Lezioni di pasta · su prenotazione"].map((x) => (
                 <div key={x} className="flex items-center gap-4 text-sm">
                   <span className="w-2 h-2 rounded-full bg-accent" />
                   <span>{x}</span>

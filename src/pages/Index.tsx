@@ -1,6 +1,5 @@
 import { Nav } from "@/components/Nav";
 import { Hero } from "@/components/Hero";
-import { Marquee } from "@/components/Marquee";
 import { Manifesto } from "@/components/Manifesto";
 import { Stays } from "@/components/Stays";
 import { Editorial } from "@/components/Editorial";
@@ -14,7 +13,6 @@ const Index = () => {
     <main className="bg-background text-foreground overflow-x-hidden">
       <Nav />
       <Hero />
-      <Marquee />
       <Manifesto />
       <Stays />
       <Editorial />

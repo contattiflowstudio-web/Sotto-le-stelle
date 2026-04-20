@@ -13,16 +13,16 @@ export const Manifesto = () => {
           <Reveal delay={100}>
             <h2 className="font-serif text-4xl md:text-6xl lg:text-7xl leading-[1.05] text-balance">
               Crediamo che il lusso più raro<br />
-              sia <span className="font-italic-serif text-primary">il silenzio</span> di una mattina d'estate,
-              il profumo della terra dopo la pioggia, e una <span className="font-italic-serif">cena</span> sotto il pergolato.
+              sia <span className="font-italic-serif text-primary">il silenzio</span> dell'alba sul lago,
+              il profumo dei limoni sulla riva, e una <span className="font-italic-serif">cena</span> con i piedi nell'acqua.
             </h2>
           </Reveal>
           <Reveal delay={300}>
             <div className="mt-16 grid sm:grid-cols-3 gap-10 max-w-3xl">
               {[
-                ["62", "anni di ospitalità"],
-                ["18", "ettari di natura"],
-                ["240", "ulivi secolari"],
+                ["62", "anni sulla riva"],
+                ["340", "metri di spiaggia"],
+                ["180", "ulivi secolari"],
               ].map(([n, l]) => (
                 <div key={n}>
                   <div className="font-serif text-5xl text-primary">{n}</div>
